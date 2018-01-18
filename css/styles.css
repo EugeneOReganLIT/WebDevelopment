@@ -1,0 +1,435 @@
+header input[type=text] {
+    
+    width: 130px;
+    <--box-sizing: border-box;
+    <--border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/Searchicon.png');
+    background-size: 40px 40px;
+    <--background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+header input[type=text]:focus 
+{
+    width: 20%;
+}
+
+
+@font-face{
+    font-family: coder;
+    src:url(coder.ttf);
+ 
+}
+
+span.bookTitle
+{
+    font-weight: bold;
+    color:cornflowerblue;
+    
+}
+
+img{
+    padding: 6px;
+}
+
+ul.cprompt
+{
+    list-style-image: url(../img/Cprompt.JPG);
+
+}
+
+footer{
+   padding: 10px;
+}
+/* 
+div's to seperate the sections of the pages
+*/
+div.divLeft
+{
+    width: 200px;
+  
+    padding: 2px;
+    text-align: left;
+    float: left;
+}
+
+div.divCenter
+{
+    width: 300px;
+    font-size: 30px;
+    padding: 2px;
+    text-align:center;
+    margin-left:320px; 
+    font-family: "coder"
+   
+}
+
+
+div.divRight
+{ 
+    width: 200px;
+    margin-left: auto;
+    padding: 2px;
+    text-align:right;
+    float:right;
+     
+}
+
+span.epic{
+    font-family:"Forum",cursive;
+    font-size:155%;
+    
+}
+
+#navigationTable{
+    width: 800px;
+    height: 600px;
+    padding: 5px;
+    border: none;
+ 
+}
+
+#navigationTable caption{
+    border: none;
+    
+}
+
+
+
+div.formLeft
+{
+    width: 200px;
+    padding: 2px;
+    text-align: left;
+    float: left;    
+}
+
+div.formCenter
+{
+    width: 200px;
+    padding: 2px;
+    text-align:center;
+    margin-left:320px; 
+  
+}
+
+li
+{
+   font-family: "Forum", cursive;
+    font-size: 125%; 
+    padding: 2px;
+}
+  table
+   {
+      border: 1px black solid;
+      margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+ 
+   }
+td{
+    <!--border: 1px blue solid; -->
+    border-bottom: 1px blue solid;
+    font-family: "Forum";
+    text-align: center;
+    padding: 5px;
+    word-wrap: break-word;
+}
+div.centralQuote
+{
+    text-align: center;
+    font-size: 100%;
+    padding: 10px;
+    font-family: 'Cookie', cursive;
+}
+
+
+p, legend
+{
+    font-family: "Forum", cursive;
+    font-size: 125%;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1, h2, h3, h4
+{
+   font-family: "Forum", cursive;
+    padding: 10px;
+}
+caption
+{
+   font-weight: italic;
+   font-size: 140%;
+    padding: 6px;
+}
+   
+th 
+{
+    column-span: "5";
+	padding: 5px;
+    background-color:   "yellow";
+}
+   
+ 
+   
+ 
+ table caption
+{
+    font-family: "Times", cursive;
+    border: 2px solid black;
+}
+   
+
+ #topicsCol
+ {
+ text-align: center;
+ border: 2px black solid;
+ }
+	td 
+   {
+    font-weight: bold;
+   }
+   
+td:hover 
+{
+	color:aqua;
+
+}
+
+
+
+
+div#wrapper{
+  max-width:960px;
+  background-color:whitesmoke;
+  margin-left:auto;
+  margin-right:auto;
+}
+div.contentCenter {
+    width: 350px;
+    height: 90px;
+    padding: 1px;
+    font-size: 150%;
+    text-align:center;
+    font-family: "Cookie", cursive;
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+span.bandSong{
+    text-align: right;
+    font-family: "Forum", cursive;
+}
+header h1{
+    color:black;
+    font-size:400%;
+    text-align: center;
+    font-family:"Forum", cursive;
+  }
+
+figure.left
+{
+    float:left;
+    padding:1px;
+   }
+
+figure.right
+{
+    float:right;
+    padding:1px;
+   }
+
+figcaption.right
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+figcaption.left
+{
+    font-weight: bold;
+    float:left;
+}
+
+img.right
+{
+    float: right;
+}
+
+
+header{
+    
+ background-color:whitesmoke;
+    /*border: solid  black 1px ;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color:whitesmoke;
+    /*border: solid  black 1px ;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+    padding-left: 5px;
+    
+}
+
+header nav{
+    background-color:whitesmoke;
+    width: 200px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+  
+    
+}
+/* Styles for the submit button
+on the Chop Shop Challenge Page.
+Used an id as it will be the only 
+place this will be used*/
+form.formCenter{
+    align-content: center;
+     margin-left:auto; 
+    margin-right:auto;
+}
+input#submitCSCbtn {
+    float: right;
+    align-items: center;
+    width: 100px;
+    height:80px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Forum", cursive;
+    font-weight: bold;
+    font-size: 100%;
+    background: grey;
+    color: black;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+}
+
+input#submitCSCbtn:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
+
+nav a{
+    display: inline;
+    padding: 8px;
+       
+}
+
+ol li{
+    font-size: 120%;
+}
+
+ul li{
+    font-size: 145%;
+}
+
+input.MyButton {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 200%;
+    align-content: center;
+    background-color: cadetblue;
+    color: goldenrod;
+    border: 3px solid red;
+    border-radius: 10px;
+    font-family: "Forum", cursive;
+    white-space: normal;
+    
+}
+
+input.MyButton:hover {
+color: green;
+background: white;
+border: 3px solid red;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+    font-size: 130%;
+    display:inline;
+    background-color:white;
+    width:130px;
+    height:130px;
+  border:solid black 1px;
+}
+
+nav li.current_page 
+{ 
+    background-color:black;
+    color: azure
+}
+a:link 
+{ color:crimson;}
+a:visited 
+{ color:forestgreen;}
+a:hover 
+{ color:orange;}
+a:active 
+{ color:white;}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

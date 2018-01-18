@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>An Coder Nua</title>
+            <link href = "css/styles.css" rel = "stylesheet" type = "text/css" />         
+           <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">  
+
+    </head>
+<body>
+    
+<div id="wrapper">
+<header>
+   <div class = "divLeft">
+       <p>
+               <a href="mailto:slaineoregan@gmail.com">
+            <img src = "img/email_logo.png" width = 30 height = 25 alt = "Eugene O' Regan's Gmail Address" /></a>
+          <a href="https://www.linkedin.com/in/eugeneoregan/" target = _blank >
+            <img src = "img/LinkedIn_Logo.png" width = 30 height = 25 alt = "Eugene O' Regan's LinkedIn Profile" /></a>
+            <a href="https://www.youtube.com/channel/UC2rAlrOdSajiNm_sUIUXCzA" target = _blank >
+            <img src = "img/YouTube.jpg" width = 50 height = 30 alt = "Eugene O' Regan's YouTube Channel" /></a> 
+        </p>
+    </div>
+
+    <div class = "divRight">
+        
+     <form style="text-align: right">
+         <p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+        
+        </div>
+        <div class = "divCenter">
+            <span class ="epic">An Coder Nua</span>
+    </div>
+     <p></p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a> </li>
+      <li><a href="Bio_Faq.html">About Us </a> </li>
+      <li><a href="Basic_Java_Topics.html">Basic Java</a> </li>
+      <li><a href="General_Algorithm_Tips.html">General Tips </a> </li>
+      <li><a href="Java_Algorithm_Tips.html">Java Tips </a> </li>  
+      <li><a href="ChopShop.html">Chop Shop </a> </li>
+      <li><a href="ResourcesLinks.html">Links </a> </li> 
+    <li class="current_page"  >Contact Us </li>         
+    </ul>
+  </nav>
+<hr>
+  <main>
+<div>   
+    <figure class = "right">
+        <img src = "img/mainOutThere.JPG" alt = "main" height = "175" width="250"> <br>
+        <figcaption class = "right"><em>Its good to reach <br>out at times </em></figcaption>    
+    </figure>  
+    <h1>Contact Us</h1>
+      <p>We are always looking for questions, tips and (<em>constructive</em>) feedback so please send on any: </p>
+        <ul>
+            <li>Questions on general Java concepts.</li>   
+            <li>Answers to the latter questions.</li>
+            <li>Suggestions for areas to cover.</li>
+            <li>Advice on website material / layout.</li>
+            <li>Good links for others.</li>
+            <li>Entries or suggestions for The Chop Shop Challenge!</li>
+        </ul>
+</div> 
+<div>
+    <form action="/cgi-bin/mailinglist.pl" method="post">
+        <fieldset>
+            <legend>Please fill in the following details <strong>(* indicates a Mandatory Field)</strong></legend>
+            <p><label>Name <strong>*</strong> <input type="text" name="name" id="name" size = "30"></label> </p>
+            <p><label>Email <strong>*</strong> <input type="email" name="email" id="email" size = "30"></label></p>
+            <p>
+                <label> Reason for contacting An Coder Nua <strong>*</strong>
+                    <select name="contactReason">
+                        <option selected = "selected">Java Question</option>
+                        <option>Suggested Answer to a Java Question </option>                    
+                        <option>Site improvement</option>
+                        <option>Suggested book/website link</option>
+                        <option>Chop Shop Challenge Answer </option>
+                        <option>Chop Shop Challenge Question Suggestion </option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </p>
+            <p><label>If Other, please state: <input type = "text" name = "other" id = "other" size = "40"></label></p>
+            <p><label>Question / Comment<strong>*</strong></label></p>
+                <textarea name="area" rows="7" cols="60">Type your question/comment here</textarea><br>
+            <p>Would you like to be added to our subscribers email listing?
+                <label> <input type = "radio" name = "emailListing" value = "Yes"> Yes</label> 
+                <label> <input type = "radio" name = "emailListing" value = "No"> No</label></p>
+            <p><input type="file" name="fileupload"  id="fileupload">
+                <label for = "fileupload"> Select your file for upload</label></p>
+            <p><input type="submit" size = "100" name = "submitContact" id = "submitContact"/>
+                <label for="submitContact">Contact An Coder</label>              
+            </p>  
+        </fieldset>
+    </form>
+</div>
+</main>
+   
+     <footer>
+        <hr>
+            <div class = "divLeft">
+                <p>Eugene O' Regan<br>
+                Baltydaniel East,<br>
+                Mallow,<br>
+                Co. Cork,<br>
+                Ireland.</p>
+            </div>
+            <div class = "divRight">
+                <p> &copy; Eugene O' Regan 2017  </p>
+                    <a href="mailto:slaineoregan@gmail.com">
+                        <img src = "img/email_logo.png" width = 30 height = 25 alt = "Eugene O' Regan's Gmail Address" /></a>
+                    <a href="https://www.linkedin.com/in/eugeneoregan/"   target= "_blank">
+                        <img src = "img/LinkedIn_Logo.png" width = 30 height = 25 alt = "Eugene O' Regan's LinkedIn Profile" /></a>
+                        <a href="https://www.youtube.com/channel/UC2rAlrOdSajiNm_sUIUXCzA"   target= "_blank">
+                            <img src = "img/YouTube.jpg" width = 50 height = 30 alt = "Eugene O' Regan's YouTube Channel" /></a> 
+            </div>
+            <div class = "divCenter">
+                <p><span class = "epic">An Coder Nua</span></p>
+ 
+            </div>
+            <hr>
+    </footer>
+</div>
+    
+</body>
+</html>
+ 
